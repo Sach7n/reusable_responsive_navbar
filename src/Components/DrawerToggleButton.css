@@ -1,0 +1,31 @@
+.toggle_button_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25px;
+    width: 30px;
+    cursor: pointer;
+    
+   
+  }
+  .toggle_button_div  div{
+    
+    width: 30px;
+    height: 3px;
+    background-color:azure; 
+    transition:all 0.4s ease-in; 
+}
+.toggle_button_div.close div{
+    transition:all 0.4s ease;
+
+}
+.toggle_button_div.close .toggle_button_line1 {
+    transform: rotate(-225deg) translate(5px,-4px);
+    
+}
+.toggle_button_div.close .toggle_button_line2{
+display: none;
+}
+.toggle_button_div.close .toggle_button_line3 {
+    transform: rotate(225deg) translate(5px,4px);   
+}
