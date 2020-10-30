@@ -1,1 +1,1 @@
-A fully responsive and reusable navbar built with React(hooks).
+A fully responsive and reusable navbar with an animated hamburger menu built with React(hooks).
