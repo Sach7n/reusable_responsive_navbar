@@ -20,12 +20,12 @@
 
 }
 .toggle_button_div.close .toggle_button_line1 {
-    transform: rotate(-225deg) translate(5px,-4px);
+    transform: translate(0px,0px) rotate(-225deg) translate(5px,-4px);
     
 }
 .toggle_button_div.close .toggle_button_line2{
 display: none;
 }
 .toggle_button_div.close .toggle_button_line3 {
-    transform: rotate(225deg) translate(5px,4px);   
+    transform: translate(0px,0px) rotate(225deg) translate(5px,4px);   
 }

@@ -6,7 +6,7 @@ import MainNavigation from './Components/MainNavigation';
 function App() {
   return (
     
-    <div className="App">
+    <div style={{height:'100%'}}>
     <MainNavigation/>
 
     </div>
