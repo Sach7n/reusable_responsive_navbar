@@ -20,9 +20,9 @@ if(show){
 }
 
     return (
-        <div className="main-navigation" style={{height:'100%'}}>
-          <Navbar drawerClick={drawerToggleClickHandler} show={show}/>  
-          <Sidedrawer show={show}/>
+        <div className="main-navigation">
+         <div className="navbar"> <Navbar drawerClick={drawerToggleClickHandler} show={show}/> </div> 
+         <div className="sideDrawer"> <Sidedrawer show={show}/> </div>
           {backdrop}
         </div>
     )
