@@ -1,5 +1,4 @@
 import React from 'react';
-import DrawerToggleButton from './DrawerToggleButton';
 import "./Navbar1.css"
 
 const Navbar1 = props => {
@@ -25,7 +24,6 @@ const Navbar1 = props => {
         </li>
         </div>
         
-        <div className="toggle-button"><DrawerToggleButton click1={props.drawerClick} show={props.show}/></div>
 
         </nav>
     );
